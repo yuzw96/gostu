@@ -20,3 +20,5 @@ Unicode字符rune类型是和int32等价的类型，通常用于表示一个Unic
 >5 &nbsp;  ||
 
 ###浮点数
+go语言提供了两种精度的浮点数，float32和float64。
+一个float32类型的浮点数可以提供大约6个十进制数的精度，而float64可以提供约15个十进制的精度。[float使用实例](float/main.go)
