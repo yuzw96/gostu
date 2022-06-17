@@ -18,7 +18,7 @@ const (
 var sin30, cos30 = math.Sin(angle), math.Cos(angle)
 
 func main() {
-	filename := "C:\\Users\\yuzw\\Desktop\\test.svg"
+	filename := "test.svg"
 	f, err := os.Create(filename)
 	defer f.Close()
 	if err != nil {
